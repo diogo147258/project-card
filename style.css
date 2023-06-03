@@ -1,0 +1,85 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    overflow-y: hidden;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+.principal{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.container{
+    width: 650px;
+    border: 1px solid hsl(30, 38%, 92%);
+    border-radius: 12px;
+    background-color: white; 
+    display: flex;
+    justify-content: center; 
+}
+img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin: -3px -9px;
+}
+h1{
+    font-family: 'Fraunces', serif;
+    width: 240px;
+}
+.left{
+    width: 350px;
+}
+.right{
+    width: 250px;
+    padding: 20px;
+    margin: 0 20px;
+}
+p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    margin:4px ;
+}
+.preco {
+    width: 200px;
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  
+}
+.preco h3{
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    margin-right:15px;
+}
+.preco p{
+    text-decoration: line-through;
+}
+button{
+    width: 250px;
+    height: 45px;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: 1px solid hsl(158, 36%, 37%);
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+button:active{
+    background-color: hsl(212, 21%, 14%);
+    transition: 0.2s;
+}
+button img{
+    margin: 10px;
+}
